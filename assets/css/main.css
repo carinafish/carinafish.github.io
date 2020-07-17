@@ -2256,6 +2256,12 @@ input, select, textarea {
 	#affliations a:hover {
 		opacity: 0.5;
 	}
+	
+
+	figcaption {
+		font-size: 10pt;
+		color: #a9a9a9;
+	}
 
 /* List */
 
@@ -3562,6 +3568,13 @@ input, select, textarea {
 
 		#about-banner-image {
 			background-image: url("../../images/cod.jpg");
+			display: block;
+		}
+
+		#news-banner-image {
+			background-image: url("../../images/Chase-PtBlue.jpg");
+			background-position-y: 75%;
+			height: 450px;
 			display: block;
 		}
 
