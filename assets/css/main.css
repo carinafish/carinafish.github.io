@@ -2256,7 +2256,7 @@ input, select, textarea {
 	#affliations a:hover {
 		opacity: 0.5;
 	}
-	
+
 
 	figcaption {
 		font-size: 10pt;
@@ -2760,9 +2760,25 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+
 /* About Lead-In */
-  section#one.about {
-    background-color: rgba(236, 141, 129, .88);
+  section#about-banner {
+		background-image: url("../../images/cod.jpg");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+		background-position-y: 65%;
+		height: 450px;
+		display: block;
+  }
+
+/* News Lead-In */
+  section#news-banner {
+		background-image: url("../../images/Chase-PtBlue-flipped.jpg");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+		background-position-y: 65%;
+		height: 450px;
+		display: block;
   }
 
 /* Tiles */
@@ -3566,18 +3582,6 @@ input, select, textarea {
 				opacity: 0.75;
 			}
 
-		#about-banner-image {
-			background-image: url("../../images/cod.jpg");
-			display: block;
-		}
-
-		#news-banner-image {
-			background-image: url("../../images/Chase-PtBlue.jpg");
-			background-position-y: 75%;
-			height: 450px;
-			display: block;
-		}
-
 		#banner.style1:after {
 			background-color: #6fc3df;
 		}
@@ -3689,7 +3693,7 @@ input, select, textarea {
 			}
 
 			#main > * > .inner {
-				padding: 4em 0 2em 0 ;
+				padding: 3em 0 2em 0 ;
 				margin: 0 auto;
 				max-width: 65em;
 				width: calc(100% - 6em);
