@@ -2771,6 +2771,10 @@ input, select, textarea {
 		display: block;
   }
 
+  section#one.about {
+    background-color: rgba(236, 141, 129, .88);
+  }
+
 /* News Lead-In */
   section#news-banner {
 		background-image: url("../../images/Chase-PtBlue-flipped.jpg");
