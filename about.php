@@ -69,7 +69,6 @@
 									</header>
 								<div class="image main fixed-height" style="display:block;" id="about-banner-image" alt="" /></div>
 								</div>
-
 							</section>
 
 							<section class="b-t-0">
