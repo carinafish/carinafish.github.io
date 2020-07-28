@@ -3736,6 +3736,11 @@ input, select, textarea {
 
 				}
 
+			#main > * > .inner.short {
+				padding-top: 1em;
+   				padding-bottom: 1em;
+			}
+ 
 		#main.alt {
 			background-color: transparent;
 			border-bottom: solid 1px rgba(212, 212, 255, 0.1);
