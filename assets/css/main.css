@@ -1792,6 +1792,10 @@ input, select, textarea {
 	section.special, article.special {
 		text-align: center;
 	}
+	
+	section#scicomm {
+		background-color: #0080807a;
+	}
 
 	header.major {
 		width: -moz-max-content;
