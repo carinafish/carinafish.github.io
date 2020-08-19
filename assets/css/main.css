@@ -313,23 +313,19 @@ input, select, textarea {
 		}
 
 		.row.first {
-			background-color: #ec8d81; /* salmon pink */
-			opacity: .85;
+			background-color: rgba(236, 141, 129, 0.85); /* salmon pink */
 		}
 
 		.row.second {
-			background-color: #87c5a4; /* green */
-			opacity: .85;
+			background-color: rgba(135, 197, 164, 0.85); /* green */
 		}
 
 		.row.third {
-			background-color: #e7b788; /* golden yellow */
-			opacity: .85;
+			background-color: rgba(231, 183, 136, 0.85); /* golden yellow */
 		}
 
 		.row.fourth {
-			background-color: #6fc3df; /* light blue */
-			opacity: .9;
+			background-color: rgba(111, 195, 223, 0.9); /* light blue */
 		}
 
 		.row.gtr-uniform > * > :last-child {
@@ -1792,7 +1788,7 @@ input, select, textarea {
 	section.special, article.special {
 		text-align: center;
 	}
-	
+
 	section#scicomm {
 		background-color: #0080807a;
 	}
@@ -3740,7 +3736,7 @@ input, select, textarea {
 				padding-top: 1em;
    				padding-bottom: 1em;
 			}
- 
+
 		#main.alt {
 			background-color: transparent;
 			border-bottom: solid 1px rgba(212, 212, 255, 0.1);
