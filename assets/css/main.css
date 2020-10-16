@@ -2277,10 +2277,13 @@ input, select, textarea {
 		opacity: 0.5;
 	}
 
-
 	figcaption {
 		font-size: 10pt;
-		color: #a9a9a9;
+		color: #ffffff;
+	  display: block;
+	  position: absolute;
+	  bottom: 0;
+	  right: 0;
 	}
 
 /* List */
@@ -2803,6 +2806,7 @@ input, select, textarea {
 		background-position-y: 65%;
 		height: 450px;
 		display: block;
+		position: relative;
   }
 
 /* Tiles */
