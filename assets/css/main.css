@@ -2791,8 +2791,8 @@ input, select, textarea {
 		display: block;
   }
 
-  section#one.about {
-    background-color: rgba(236, 141, 129, .88);
+  section.about {
+    background-color: rgba(236, 141, 129, .88) !important;
   }
 
 /* News Lead-In */
@@ -3052,6 +3052,8 @@ input, select, textarea {
 					border-radius: 0;
 					display: block;
 					width: 100%;
+					height: 100%;
+					object-fit: cover;
 				}
 
 				.spotlights > section > .image:before {
