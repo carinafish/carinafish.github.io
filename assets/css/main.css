@@ -115,6 +115,16 @@ input, select, textarea {
 
 /* Type */
 
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+
+.lazyloaded {
+    opacity: 1;
+    @include transition(opacity 300ms);
+}
+
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
